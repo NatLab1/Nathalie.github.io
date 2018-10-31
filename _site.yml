@@ -1,0 +1,16 @@
+name: "Nathalie Fadel"
+output_dir: "."
+navbar:
+  title: "Home"
+  right:
+    - text: "About"
+      href: about.html
+    - icon: fa-envelope fa-lg
+      href: mailto:<nathalie12890@gmail.com>
+    - icon: fa-github fa-lg
+      href: http://github.com/<NatLab1>/
+output:
+  html_document:
+    theme: cyborg
+    toc: true
+    toc_float: true 

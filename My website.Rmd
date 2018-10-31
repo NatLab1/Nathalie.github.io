@@ -1,0 +1,25 @@
+---
+title: "My website"
+author: "Nathalie Fadel"
+date: "10/18/2018"
+output: html_document
+---
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = TRUE)
+```
+
+#WELCOME TO MY WEBSITE
+
+Tired: LinkedIn
+Wired: GitHub websites
+Inspired: upload your consciousness to the cloud
+
+
+
+
+
+
+
+
+
