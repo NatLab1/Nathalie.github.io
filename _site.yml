@@ -8,7 +8,7 @@ navbar:
     - icon: fa-envelope fa-lg
       href: mailto:<nathalie12890@gmail.com>
     - icon: fa-github fa-lg
-      href: http://github.com/<NatLab1>/
+      href: http://github.com/NatLab1/Nathalie.github.io
     - text: "CV"
       href: CV.html
     - text: "LinkedIn"
