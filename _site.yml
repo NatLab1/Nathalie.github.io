@@ -13,8 +13,8 @@ navbar:
       href: CV.html
     - text: "LinkedIn"
       href: https://www.linkedin.com/in/nathaliefadel/
+    - text: "Plots"
+      href: My_website.html
 output:
   html_document:
     theme: cyborg
-    toc: true
-    toc_float: true 

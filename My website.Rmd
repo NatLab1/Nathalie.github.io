@@ -1,8 +1,9 @@
 ---
 title: "Plots"
-author: "Nathalie Fadel"
-date: "11/2/2018"
-output: html_document
+output: 
+  flexdashboard::flex_dashboard:
+    orientation: columns
+    vertical_layout: fill
 ---
 
 ```{r setup, include=FALSE}
@@ -64,12 +65,10 @@ temps = ny_noaa_data %>%
   filter(!is.na(tmin), !is.na(tmax)) %>%
   ggplot(aes(x = tmin, y = tmax)) +
   geom_bin2d() +
-  viridis::scale_fill_viridis(option = "inferno") +
-  theme(legend.position = "bottom", legend.key.size = unit(1.25, "cm"))
+  viridis::scale_fill_viridis(option = "inferno")
 
 ggplotly(temps)
 
-rmarkdown::render("My_website.Rmd", output_format = "My_website")
 ```
 
 
