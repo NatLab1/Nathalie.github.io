@@ -6,28 +6,27 @@ output: html_document
 ---
 
 ```{r setup, include=FALSE}
-knitr::opts_chunk$set(echo = TRUE)
-rmarkdown::render("My website.Rmd", output_format = "flex_dashboard")
 
 library(tidyverse)
 library(p8105.datasets)
+library(viridis)
 library(plotly)
+library(flexdashboard)
+
 ```
 
 ```{r}
 set.seed(1)
-data(nyc_airbnb)
-nyc_airbnb = 
-  nyc_airbnb %>% 
-  mutate(rating = review_scores_location / 2) %>%
-  select(boro = neighbourhood_group, neighbourhood, rating, price, room_type, latitude, longitude) %>%
-  filter(!is.na(rating), 
-         boro == "Brooklyn",
-         room_type == "Entire home/apt",
-         price %in% 100:500)  
+
+ny_noaa_data <- p8105.datasets::ny_noaa %>%
+janitor::clean_names() %>%
+  separate(date, c("year", "month", "day"), sep = "-") %>%
+  mutate(prcp = prcp / 10, 
+         tmax = as.numeric(tmax) / 10,
+         tmin = as.numeric(tmin) / 10,
+         year = as.integer(year), 
+         month = month.name[as.integer(month)])  
 ```
-
-
 
 Column {data-width=500}
 -----------------------------------------------------------------------
@@ -35,12 +34,13 @@ Column {data-width=500}
 ### Chart A
 
 ```{r}
-nyc_airbnb %>%
-  mutate(text_label = str_c("Price: $", price, "\nRating: ", rating)) %>% 
-  plot_ly(x = ~longitude, y = ~latitude, type = "scatter", mode = "markers",
-          alpha = 0.5, 
-          color = ~price,
-          text = ~text_label)
+ny_noaa_data %>%
+  filter(month %in% c("January")) %>%
+  group_by(year, month) %>%
+  summarize(avg_high = mean(tmax, na.rm = TRUE)) %>%
+  plot_ly(x = ~year, y = ~avg_high, type = "scatter", 
+          mode = "markers", alpha = 0.5)
+
 ```
 
 Column {data-width=500}
@@ -49,27 +49,28 @@ Column {data-width=500}
 ### Chart B
 
 ```{r}
-common_neighborhoods =
-  nyc_airbnb %>% 
-  count(neighbourhood, sort = TRUE) %>% 
-  top_n(8) %>% 
-  select(neighbourhood)
-inner_join(nyc_airbnb, common_neighborhoods,
-             by = "neighbourhood") %>% 
-  mutate(neighbourhood = fct_reorder(neighbourhood, price)) %>% 
-  plot_ly(y = ~price, color = ~neighbourhood, type = "box",
-          colors = "Set2")
+ny_noaa_data %>%
+  filter(month %in% c("July")) %>%
+  group_by(year, month) %>%
+  summarize(avg_high = mean(tmax, na.rm = TRUE)) %>%
+  plot_ly(x = ~year, y = ~avg_high, type = "scatter", 
+          mode = "markers", alpha = 0.5)
 ```
 
 ### Chart C
 
 ```{r}
-nyc_airbnb %>% 
-  count(neighbourhood) %>% 
-  mutate(neighbourhood = fct_reorder(neighbourhood, n)) %>% 
-  plot_ly(x = ~neighbourhood, y = ~n, color = ~neighbourhood, type = "bar")
-```
+temps = ny_noaa_data %>%
+  filter(!is.na(tmin), !is.na(tmax)) %>%
+  ggplot(aes(x = tmin, y = tmax)) +
+  geom_bin2d() +
+  viridis::scale_fill_viridis(option = "inferno") +
+  theme(legend.position = "bottom", legend.key.size = unit(1.25, "cm"))
 
+ggplotly(temps)
+
+rmarkdown::render("My_website.Rmd", output_format = "My_website")
+```
 
 
 
