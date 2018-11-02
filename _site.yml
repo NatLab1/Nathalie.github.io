@@ -17,4 +17,4 @@ navbar:
       href: My_website.html
 output:
   html_document:
-    theme: cyborg
+    theme: default

@@ -17,8 +17,6 @@ library(flexdashboard)
 ```
 
 ```{r}
-set.seed(1)
-
 ny_noaa_data <- p8105.datasets::ny_noaa %>%
 janitor::clean_names() %>%
   separate(date, c("year", "month", "day"), sep = "-") %>%
@@ -61,13 +59,15 @@ ny_noaa_data %>%
 ### Chart C
 
 ```{r}
-temps = ny_noaa_data %>%
-  filter(!is.na(tmin), !is.na(tmax)) %>%
-  ggplot(aes(x = tmin, y = tmax)) +
-  geom_bin2d() +
-  viridis::scale_fill_viridis(option = "inferno")
+snowfall = ny_noaa_data %>% 
+  filter(snow > 0, snow < 100) %>% 
+  mutate(year = as.factor(year)) %>%
+  ggplot(aes(x = snow, color = year)) + 
+  geom_density(alpha = .05) + 
+  viridis::scale_color_viridis(name = "year", discrete = TRUE, option = "inferno") +
+  labs(x = "snowfall (mm)") 
 
-ggplotly(temps)
+ggplotly(snowfall)
 
 ```
 

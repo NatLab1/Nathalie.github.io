@@ -2,16 +2,16 @@
 title: "Nathalie Fadel"
 ---
 
-#Welcome to my webpage!
+#Welcome to my webpage!  
 
 ###Links
-My [LinkedIn](https://www.linkedin.com/in/nathaliefadel/)
+My [LinkedIn](https://www.linkedin.com/in/nathaliefadel/)  
 My [twitter](https://www.twitter.com/thenath90).
 
-About [this site](about.html).
+About [this site](about.html).  
 
-###Jokes
+###Jokes  
 
-Tired: LinkedIn
-Wired: GitHub websites
-Inspired: upload your consciousness to the cloud
+Tired: LinkedIn  
+Wired: GitHub websites  
+Inspired: upload your consciousness to the cloud  

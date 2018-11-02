@@ -9,58 +9,60 @@ output: html_document
 knitr::opts_chunk$set(echo = TRUE)
 ```
 
-**Nathalie A. Fadel**
-605 W 156th Street, Apt 45
-New York, NY 10032
-cell: (978)-235-6675
-Email: nf2429@columbia.edu 
+**Nathalie A. Fadel**  
+605 W 156th Street, Apt 45  
+New York, NY 10032  
+cell: (978)-235-6675  
+Email: nf2429@columbia.edu   
 
 ##EXPERIENCE
 
-**Boston Children’s Hospital, Division of Critical Care Medicine, Boston, MA.** 
+
+**Boston Children’s Hospital, Division of Critical Care Medicine, Boston, MA.**   
 Progeria Research Coordinator, May 2015 - Jan 2017.
 
-Created a clinical trial budget for all trial-related testing done at BCH, tracked research billing in Excel and in hospital Epic system
+Created a clinical trial budget for all trial-related testing done at BCH, tracked research billing in Excel and in hospital Epic system.  
 Scheduled and coordinated study subject visits for numerous medical procedures
-Met with trial investigators one-on-one and in groups to discuss data collection, organization, and management
-Managed Excel spreadsheets and case report forms based on investigator requests and recommendations for data
-Coordinated the creation of an InForm database for the newest progeria clinical trial. Met with each investigator responsible for data collection and database programmers to incorporate all data elements
-Aided in hiring and managed an intern from Northeastern University’s co-op program
-Created and submitted regulatory documentation to the institutional IRB and to the FDA
-Coordinated team of helpers and supplies during -80C freezer failure, ensured safe transfer of human specimens and freezer repair
-Communicated and cultivated relationships with pharmaceutical companies, Progeria Research Foundation staff, BCH research operations, and BCH clinicians
+Met with trial investigators one-on-one and in groups to discuss data collection, organization, and management.  
+Managed Excel spreadsheets and case report forms based on investigator requests and recommendations for data.  
+Coordinated the creation of an InForm database for the newest progeria clinical trial.   Met with each investigator responsible for data collection and database programmers to incorporate all data elements.  
+Aided in hiring and managed an intern from Northeastern University’s co-op program.  
+Created and submitted regulatory documentation to the institutional IRB and to the FDA.  
+Coordinated team of helpers and supplies during -80C freezer failure, ensured safe transfer of human specimens and freezer repair.  
+Communicated and cultivated relationships with pharmaceutical companies, Progeria Research Foundation staff, BCH research operations, and BCH clinicians.  
 		
-**Dana-Farber Cancer Institute, Gastrointestinal Cancer Center, Boston, MA.** 
-Research Data Specialist, August 2012 - May 2015.
+**Dana-Farber Cancer Institute, Gastrointestinal Cancer Center, Boston, MA.**   
+Research Data Specialist, August 2012 - May 2015.  
 
-Managed the collection and distribution of diet and lifestyle surveys for a CALGB group clinical trial for colorectal cancer 
-Compiled sets of raw survey data from the CALGB study via SAS and ScanTools Plus programs. Wrote SAS program to compile and organize raw data.
-Updated and completed regulatory documentation 
-Determined protocol eligibility of patients by reviewing medical records in the CAS LMR shell. 
-Coordinated specimen collections
-Collected patient study measures in person including anthropometric measurements, walking tests, demographic surveys, exercise logs, and drug adherence logs.
-Routinely updated study databases and spreadsheets in Microsoft Excel, Microsoft Access, and InForm eDC.
-Approached and consented patients in clinic for clinical research studies
-Communicated and cultivated relationships with physicians, NPs, RNs, administrators, lab personnel, and other clinical researchers, from both inside and outside the institute.
+Managed the collection and distribution of diet and lifestyle surveys for a CALGB group clinical trial for colorectal cancer.   
+Compiled sets of raw survey data from the CALGB study via SAS and ScanTools Plus programs. Wrote SAS program to compile and organize raw data.  
+Updated and completed regulatory documentation.   
+Determined protocol eligibility of patients by reviewing medical records in the CAS LMR shell.   
+Coordinated specimen collections.  
+Collected patient study measures in person including anthropometric measurements, walking tests, demographic surveys, exercise logs, and drug adherence logs.  
+Routinely updated study databases and spreadsheets in Microsoft Excel, Microsoft Access, and InForm eDC.  
+Approached and consented patients in clinic for clinical research studies.  
+Communicated and cultivated relationships with physicians, NPs, RNs, administrators, lab personnel, and other clinical researchers, from both inside and outside the institute.  
 
-**Beth Israel Deaconess Medical Center, Hemostasis and Thrombosis Division, Boston, MA.**
-Research Student, May 2011 - August 2011, June 2012 - January 2013.
+**Beth Israel Deaconess Medical Center, Hemostasis and Thrombosis Division, Boston, MA.**  
+Research Student, May 2011 - August 2011, June 2012 - January 2013.  
 
-Contributed to research on human platelet fusion pore dynamics, platelet granule movement, dynamin-platelet interactions, and dynamin inhibition by palmostatins.
-Conducted experiments on activated human platelets in vitro labeled with fluorescein dextrans, and examined under flow cytometry and EPI-fluorescence microscopy. Image analysis performed using ImageJ program.
+Contributed to research on human platelet fusion pore dynamics, platelet granule movement, dynamin-platelet interactions, and dynamin inhibition by palmostatins.  
+Conducted experiments on activated human platelets in vitro labeled with fluorescein dextrans, and examined under flow cytometry and EPI-fluorescence microscopy.   
+Image analysis performed using ImageJ program.  
 
-**University of Massachusetts Amherst Physics Department, Amherst, MA.** 
-Undergraduate Researcher, January 2010 – February 2011 
+**University of Massachusetts Amherst Physics Department, Amherst, MA.**   
+Undergraduate Researcher, January 2010 – February 2011   
 
-Conducted microtubule flexibility experiments on rhodamine-labeled microtubules in vitro under influence of thermal fluctuations, and examined using EPI-fluorescence microscopy.
-Analyzed images using Fourier mode analysis via MATLAB programs.
+Conducted microtubule flexibility experiments on rhodamine-labeled microtubules in vitro under influence of thermal fluctuations, and examined using EPI-fluorescence microscopy.  
+Analyzed images using Fourier mode analysis via MATLAB programs.  
 
-**Complexly, LLC, Missoula, MT.**
-Consultant and Script Writer, May-August 2017
+**Complexly, LLC, Missoula, MT.**  
+Consultant and Script Writer, May-August 2017  
 
-Created and wrote content on exercise and endorphin research for SciShow educational YouTube series 
-Final video titled “What Is Runner’s High?” reached #24 on trending on YouTube.com on its release date
-Advised content team on educational video ideas
+Created and wrote content on exercise and endorphin research for SciShow educational YouTube series.   
+Final video titled “What Is Runner’s High?” reached #24 on trending on YouTube.com on its release date: https://www.youtube.com/watch?v=TElAJMm34IE  
+Advised content team on educational video ideas  
 
 
 ##EDUCATION	
@@ -93,50 +95,59 @@ Dynamin-related protein-1 controls fusion pore dynamics during platelet granule 
 
 ##SKILLS
 	
-Technology: R, SAS, MATLAB, Microsoft Excel, Microsoft Access, Origin, ImageJ, Nikon NIS Elements, iOS, iVision, iMovie, Adobe Illustrator, InForm eDC
-Biological Laboratory: EPI-fluorescence microscopy, fluorescent staining, optical trapping, platelet aggregometry,  flow cytometry, pipetting, centrifugation, pH testing, buffer preparation, Western blot, SDS-PAGE
+Technology: R, SAS, MATLAB, Microsoft Excel, Microsoft Access, Origin, ImageJ, Nikon NIS Elements, iOS, iVision, iMovie, Adobe Illustrator, InForm eDC  
+
+Biological Laboratory: EPI-fluorescence microscopy, fluorescent staining, optical trapping, platelet aggregometry,  flow cytometry, pipetting, centrifugation, pH testing, buffer preparation, Western blot, SDS-PAGE  
+
 Clinical: GCPs, CAS shell for LMR, GE-IDX, Epic, basic phlebotomy
 Foreign Language: Fluent in French, beginner in Spanish
 
 ##TEACHING EXPERIENCE
 
-Your Ticket To College, www.yttc.org 
-Tutor, August 2017 - present
-ACT and SAT standardized testing tutoring for high school students
+Your Ticket To College, https://www.yttc.org   
+Tutor, August 2017 - present  
+ACT and SAT standardized testing tutoring for high school students  
 
-WyzAnt tutoring, www.wyzant.com
-Tutor, January 2017 - present
-Tutoring Math and Science subjects from elementary school to college level
+WyzAnt tutoring, https://www.wyzant.com  
+Tutor, January 2017 - present  
+Tutoring Math and Science subjects from elementary school to college level  
 
-Amherst Regional High School, Amherst, MA.
-Tutor, September 2011 – December 2011
-Tutored Math, Biology, Chemistry, Physics, and Writing to students grades 9-12.
+Amherst Regional High School, Amherst, MA.  
+Tutor, September 2011 – December 2011  
+Tutored Math, Biology, Chemistry, Physics, and Writing to students grades 9-12.  
 
-Summer Center at Nashoba Brooks School,  Concord, MA.
-Camp Counselor, June 2009 – August 2009
-Coordinated and taught week-long workshops in computer applications and engineering for elementary and middle school students.
+Summer Center at Nashoba Brooks School,  Concord, MA.  
+Camp Counselor, June 2009 – August 2009  
+Coordinated and taught week-long workshops in computer applications and engineering for elementary and middle school students.  
 
 
 ##PRESENTATIONS	
 
-“Schema and Overview of Progeria Clinical Trials” UMass Amherst Physics Department, Physicists in Industry Alumni lecture series, Amherst MA, March 2017
-“Schema and Overview of Progeria Clinical Trials” Progeria Research Foundation Scientific Workshop, Cambridge MA, May 2016.
-“How My Physics Major Has Helped Me in My Career” UMass Amherst Physics Department Alumni Day, Amherst MA, June 2015.
-“Platelet Fusion Pore Dynamics and Dynamin related protein-1” NURDS Conference, University of New England, Biddeford ME, March 2012.
-“Platelet Fusion Pore Dynamics and Granule Movement” UMass Amherst Society of Physics Students lecture series, Amherst MA, February 2012.
-“Platelet Fusion Pore Dynamics and Granule Movement” Beth Israel Deaconess Medical Center, Boston MA, August 2011.
-“Microtubule Flexibility” UMass Amherst Society of Physics Students lecture series, Amherst MA, November 2010.
+“Schema and Overview of Progeria Clinical Trials” UMass Amherst Physics Department, Physicists in Industry Alumni lecture series, Amherst MA, March 2017  
+
+“Schema and Overview of Progeria Clinical Trials” Progeria Research Foundation Scientific Workshop, Cambridge MA, May 2016.  
+
+“How My Physics Major Has Helped Me in My Career” UMass Amherst Physics Department Alumni Day, Amherst MA, June 2015.  
+
+“Platelet Fusion Pore Dynamics and Dynamin related protein-1” NURDS Conference, University of New England, Biddeford ME, March 2012.  
+
+“Platelet Fusion Pore Dynamics and Granule Movement” UMass Amherst Society of Physics Students lecture series, Amherst MA, February 2012.  
+
+“Platelet Fusion Pore Dynamics and Granule Movement” Beth Israel Deaconess Medical Center, Boston MA, August 2011.  
+
+“Microtubule Flexibility” UMass Amherst Society of Physics Students lecture series, Amherst MA, November 2010.  
+
 
 ##ACTIVITIES	
 
-Mass Whole Notes a cappella
-Member & Gig recruitment staff, September 2016 - present
-Researched and contacted facilities for gigs and other music groups to perform with.
+Mass Whole Notes a cappella  
+Member & Gig recruitment staff, September 2016 - June 2017    
+Researched and contacted facilities for gigs and other music groups to perform with.  
 
-UMass Amherst Society of Physics Students
-Events Coordinator, April 2011 – May 2012, member September 2009 – May 2012
-Organized educational and social events within the chapter and with other undergraduate SPS chapters.
+UMass Amherst Society of Physics Students  
+Events Coordinator, April 2011 – May 2012, member September 2009 – May 2012  
+Organized educational and social events within the chapter and with other undergraduate SPS chapters.  
 
-UMass Minuteman Marching Band 
-Audio/Visual Manager, January 2011 – January 2012, alto saxophone section member, August 2009 – November 2011
-Managed a 3-4 person staff to film events, edit videos, and acted as liaison between band directors and A/V staff.
+UMass Minuteman Marching Band   
+Audio/Visual Manager, January 2011 – January 2012, alto saxophone section member, August 2009 – November 2011  
+Managed a 3-4 person staff to film events, edit videos, and acted as liaison between band directors and A/V staff.  
