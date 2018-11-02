@@ -4,6 +4,10 @@ title: "About"
 
 ### About this site
 
-Sometimes you need to say a bit about the site -- how it was made, where it's hosted, where the source code can be found. 
+This site was made as a homework assignment for Data Science 1 that I took during Fall 2018, and it will continue to live on as my professional website. 
 
-If this is for a project or analysis, I recommend giving some details about the R package versions that you used to create the content.
+Source code can be found on my GitHub repository: https://github.com/NatLab1/Nathalie.github.io
+
+R version 3.5.1 (2018-07-02) -- "Feather Spray"
+Copyright (C) 2018 The R Foundation for Statistical Computing
+Platform: x86_64-apple-darwin15.6.0 (64-bit)

@@ -1,17 +1,17 @@
 ---
-title: "Holy cow!"
+title: "Index"
 ---
 
-### I have a webpage!
+#Welcome to my webpage!
 
-And I can put all kinds of stuff on it!
+###Links
+My [LinkedIn](https://www.linkedin.com/in/nathaliefadel/)
+My [twitter](https://www.twitter.com/thenath90).
 
-#links
-I like [this website](https://www.twitter.com).
+About [this site](about.html).
 
-about [me](about.html).
+###Jokes
 
-###Picture of my cat
-
-He is a doofus:
-<img src="images_folder/Leo.png" style="width:75%">
+Tired: LinkedIn
+Wired: GitHub websites
+Inspired: upload your consciousness to the cloud

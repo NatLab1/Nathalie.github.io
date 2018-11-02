@@ -1,19 +1,77 @@
 ---
-title: "My website"
+title: "Plots"
 author: "Nathalie Fadel"
-date: "10/18/2018"
+date: "11/2/2018"
 output: html_document
 ---
 
 ```{r setup, include=FALSE}
 knitr::opts_chunk$set(echo = TRUE)
+rmarkdown::render("My website.Rmd", output_format = "flex_dashboard")
+
+library(tidyverse)
+library(p8105.datasets)
+library(plotly)
 ```
 
-#WELCOME TO MY WEBSITE
+```{r}
+set.seed(1)
+data(nyc_airbnb)
+nyc_airbnb = 
+  nyc_airbnb %>% 
+  mutate(rating = review_scores_location / 2) %>%
+  select(boro = neighbourhood_group, neighbourhood, rating, price, room_type, latitude, longitude) %>%
+  filter(!is.na(rating), 
+         boro == "Brooklyn",
+         room_type == "Entire home/apt",
+         price %in% 100:500)  
+```
 
-Tired: LinkedIn
-Wired: GitHub websites
-Inspired: upload your consciousness to the cloud
+
+
+Column {data-width=500}
+-----------------------------------------------------------------------
+
+### Chart A
+
+```{r}
+nyc_airbnb %>%
+  mutate(text_label = str_c("Price: $", price, "\nRating: ", rating)) %>% 
+  plot_ly(x = ~longitude, y = ~latitude, type = "scatter", mode = "markers",
+          alpha = 0.5, 
+          color = ~price,
+          text = ~text_label)
+```
+
+Column {data-width=500}
+-----------------------------------------------------------------------
+
+### Chart B
+
+```{r}
+common_neighborhoods =
+  nyc_airbnb %>% 
+  count(neighbourhood, sort = TRUE) %>% 
+  top_n(8) %>% 
+  select(neighbourhood)
+inner_join(nyc_airbnb, common_neighborhoods,
+             by = "neighbourhood") %>% 
+  mutate(neighbourhood = fct_reorder(neighbourhood, price)) %>% 
+  plot_ly(y = ~price, color = ~neighbourhood, type = "box",
+          colors = "Set2")
+```
+
+### Chart C
+
+```{r}
+nyc_airbnb %>% 
+  count(neighbourhood) %>% 
+  mutate(neighbourhood = fct_reorder(neighbourhood, n)) %>% 
+  plot_ly(x = ~neighbourhood, y = ~n, color = ~neighbourhood, type = "bar")
+```
+
+
+
 
 
 
